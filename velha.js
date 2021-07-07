@@ -126,7 +126,7 @@ function checarQuadrados(quadrado1, quadrado2, quadrado3){
 }
 
 function resetarJogo(){
-	Array.from(quadrados).forEach((quadrado) => {quadrado.innerText = '-'; quadrado.style.color='#ccc'});
+	Array.from(quadrados).forEach((quadrado) => {quadrado.innerText = '-'; quadrado.style.color='#ccc'; quadrado.style.background='white'});
 	mudarJogador('X');
 	vencedor.innerText = '';
 	fimDoJogo = false;
