@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+	font-family: sans-serif;
+}
+.quadrado{
+	color: #d3f0f5;
+	display: inline-block;
+	width: 50px;
+	padding: 40px;
+	margin: 5px;
+	text-align: center;
+	font-size: 60px;
+	border:1px solid #6bb3bf;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+button{
+	color: #FFF;
+	cursor: pointer;
+	border: none;
+	background-color: #6bb3bf;
+	padding: 8px;
+}
+
+#vencedor{
+	font-size: 28px;
+	color: green;
+	margin: 8px;
+}
