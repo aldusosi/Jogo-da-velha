@@ -104,9 +104,12 @@ function checarVencedor(){
 
 function mudarCorDosQuadrados(quadrado1, quadrado2, quadrado3){
 	console.log('verde')
-	quadrado1.style.color = 'green';
-	quadrado2.style.color = 'green';
-	quadrado3.style.color = 'green';
+	quadrado1.style.color = 'white';
+	quadrado1.style.background = '#7db7f5';
+	quadrado2.style.color = 'white';
+	quadrado2.style.background = '#7db7f5';
+	quadrado3.style.color = 'white';
+	quadrado3.style.background = '#7db7f5';
 }
 
 function checarQuadrados(quadrado1, quadrado2, quadrado3){

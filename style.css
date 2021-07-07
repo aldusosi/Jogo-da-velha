@@ -3,7 +3,7 @@ body{
 	font-family: sans-serif;
 }
 .quadrado{
-	color: #d3f0f5;
+	color: white;
 	display: inline-block;
 	width: 50px;
 	padding: 40px;
@@ -25,6 +25,6 @@ button{
 
 #vencedor{
 	font-size: 28px;
-	color: green;
+	color: #3487e0;
 	margin: 8px;
 }
